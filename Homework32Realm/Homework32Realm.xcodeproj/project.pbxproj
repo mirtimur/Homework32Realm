@@ -15,6 +15,9 @@
 		ABE140262BC595CA0082B020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE140242BC595CA0082B020 /* LaunchScreen.storyboard */; };
 		ABE1402F2BC596380082B020 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = ABE1402E2BC596380082B020 /* Realm */; };
 		ABE140312BC596380082B020 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ABE140302BC596380082B020 /* RealmSwift */; };
+		ABE140332BC596CA0082B020 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE140322BC596CA0082B020 /* Car.swift */; };
+		ABE140352BC59C180082B020 /* SecondViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE140342BC59C180082B020 /* SecondViewController.storyboard */; };
+		ABE140372BC59C310082B020 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE140362BC59C310082B020 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		ABE140222BC595CA0082B020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABE140252BC595CA0082B020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABE140272BC595CA0082B020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE140322BC596CA0082B020 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		ABE140342BC59C180082B020 /* SecondViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondViewController.storyboard; sourceTree = "<group>"; };
+		ABE140362BC59C310082B020 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +69,10 @@
 				ABE140192BC595C80082B020 /* AppDelegate.swift */,
 				ABE1401B2BC595C80082B020 /* SceneDelegate.swift */,
 				ABE1401D2BC595C80082B020 /* ViewController.swift */,
+				ABE140322BC596CA0082B020 /* Car.swift */,
+				ABE140362BC59C310082B020 /* SecondViewController.swift */,
 				ABE1401F2BC595C80082B020 /* Main.storyboard */,
+				ABE140342BC59C180082B020 /* SecondViewController.storyboard */,
 				ABE140222BC595CA0082B020 /* Assets.xcassets */,
 				ABE140242BC595CA0082B020 /* LaunchScreen.storyboard */,
 				ABE140272BC595CA0082B020 /* Info.plist */,
@@ -137,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABE140262BC595CA0082B020 /* LaunchScreen.storyboard in Resources */,
+				ABE140352BC59C180082B020 /* SecondViewController.storyboard in Resources */,
 				ABE140232BC595CA0082B020 /* Assets.xcassets in Resources */,
 				ABE140212BC595C80082B020 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +161,8 @@
 			files = (
 				ABE1401E2BC595C80082B020 /* ViewController.swift in Sources */,
 				ABE1401A2BC595C80082B020 /* AppDelegate.swift in Sources */,
+				ABE140332BC596CA0082B020 /* Car.swift in Sources */,
+				ABE140372BC59C310082B020 /* SecondViewController.swift in Sources */,
 				ABE1401C2BC595C80082B020 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
